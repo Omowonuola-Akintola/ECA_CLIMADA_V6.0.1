@@ -11,9 +11,9 @@ In CLIMADA v3, it was possible to convert matlab `.mat` files to HDF5. However, 
 5. Tested 4 in the example script in the application folder.
 
 ### How to use
-The **custom folder** in this repo contains the notebook for the converstion
-Download and add it into the 'script' folder in the climada V6 codebase from github. 
-You can either **A**. create a subfolder named 'custom' and add the notebook: {'script/custom/notebook'}  or **B**. add it directly into the 'script' folder: {'script/notebook'}.
+- The **custom folder** in this repo contains the notebook for the converstion
+- Download and add it into the 'script' folder in your climada codebase 
+- You can either **A**. create a subfolder named 'custom' and add the notebook: {'script/custom/notebook'}  or **B**. add it directly into the 'script' folder: {'script/notebook'}.
 
 if you do A, you don't have to change the file path when using the function but make sure to use the correct file path with B
 
@@ -21,6 +21,4 @@ if you do A, you don't have to change the file path when using the function but 
 
 The application folder in the repo contains the example data and test files
 
-The hdf5 data downloaded into the applications/eca_san_salvador are: 'Salvador_hazard_FL_2015.hdf5 and 
-'Salvador_hazard_FL_2040_extreme_cc.hdf5'.
-They have been tested and works with all the .ipynb file in the same folder
+The hdf5 data downloaded using the custom script can be found in the applications/eca_san_salvador as 'Salvador_hazard_FL_2015.hdf5 and 'Salvador_hazard_FL_2040_extreme_cc.hdf5'. They have been tested and work with all the .ipynb test file provided.
